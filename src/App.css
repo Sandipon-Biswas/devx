@@ -1,0 +1,25 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #080c21 !important;
+}
+img,
+iframe {
+  max-width: 100%;
+}
+.hight100 {
+  height: 90vh;
+}
+/* responstiv  */
+@media only screen and (max-width: 768px) {
+  .slidder-rivers {
+    display: flex !important;
+    flex-direction: column-reverse;
+  }
+  html {
+    font-size: 80%;
+  }
+}
